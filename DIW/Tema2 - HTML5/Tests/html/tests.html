@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/tests.css">
+    <title>Tests</title>
+</head>
+<body>
+    <header>
+        <hgroup>
+            <h1 class="mainTitle">Tests</h1>
+            <h2 class="mainSubtitle">Tema 2</h2>
+        </hgroup>
+    </header>
+    <main>
+        <section class="elementos">
+            <article class="address">
+                <address>
+                    <a href="http://www.google.es">Google</a>
+                </address>
+            </article>
+
+            <article class="cite">
+                <cite>La última cena</cite>
+            </article>
+
+            <article class="datalist">
+                <input list="mi-movil">
+                <datalist id="mi-movil">
+                    <option value="iPhone">
+                    <option value="iPad">
+                    <option value="Android">
+                </datalist>
+            </article>
+
+            <article class="details-summary">
+                <details>
+                    <summary>Texto en el que pulsar</summary>
+                    <p>Este texto se muestra/oculta al pulsar en el texto anterior</p>
+                </details>
+            </article>
+
+            <article class="mark">
+                <mark>coche</mark>
+            </article>
+
+            <article class="meter">
+                <meter low="-273" high="100" min="12" max="30" optimum="21" value="25"></meter>
+            </article>
+
+            <article class="output">
+                <form onsubmit="return false" oninput="o.value = parseInt(a.value) + parseInt(b.value)">
+                    <input name="a" type="number" step="any"> +
+                    <input name="b" type="number" step="any"> =
+                    <output name="o"></output>
+                </form>
+            </article>
+
+            <article class="progress">
+                Su perfil está<progress min="0" max="100" value="60">60%</progress>completado.
+            </article>
+
+            <article class="time">
+                <time datetime="2023-10-12" pubdate>Publicado 12-10-2023</time>
+            </article>
+
+            <article class="video">
+                <video id="mivideohtml" width="640" height="360" autoplay controls>
+                    <source src="videos/mi_video.mp4" type=’video/mp4; codecs="avc1,mp4a"’ />
+                    <source src="videos/mi_video.webm" type=’video/webm; codecs="vp9,opus"’ />
+                    <source src="videos/mi_video.ogg" type=’video/ogg; codecs="theora,vorbis"’ />
+                    Tu navegador no implementa el elemento <code>video</code>.
+                </video>
+            </article>
+
+            <article class="audio">
+                <audio src="/test/audio.mp3" controls>
+                    <p>Tu navegador no implementa el elemento <code>audio</code>.</p>
+                </audio>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <small></small>
+        <p></p>
+        <address></address>
+    </footer>
+</body>
+</html>

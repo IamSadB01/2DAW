@@ -1,0 +1,56 @@
+body {
+    background-color:rgb(37, 37, 37);
+    color: white;
+    margin: 0 5%;
+}
+
+hgroup {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1.mainTitle {
+    margin: auto;
+    padding-top: 2%;
+    font-size: 42px;
+}
+
+h2.mainSubtitle {
+    margin: auto;
+    font-size: 16px;
+}
+
+section.elementos>article {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15px;
+}
+
+section.elementos>article.datalist>input {
+    margin: auto; 
+    max-width: 150px;
+}
+
+section.elementos>article.mark>mark {
+    margin: auto;
+    min-width: 150px;
+}
+
+section.elementos>article.meter>meter {
+    margin: auto;
+    width: 150px;
+}
+
+section.elementos>article.video>video {
+    margin: auto;
+    max-width: 300px; max-height: 200px;
+}
+
+section.elementos>article.audio>audio {
+    margin: auto;
+    max-width: 300px; max-height: 200px;
+}
+
+

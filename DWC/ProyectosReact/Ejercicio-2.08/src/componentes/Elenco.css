@@ -1,0 +1,18 @@
+.elenco {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 5em;
+
+    width: 88%;
+    height: auto;
+
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+
+    box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.3);
+}

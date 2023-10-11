@@ -1,0 +1,35 @@
+.actor {
+  display: flex;
+
+  width: 100%;
+
+  background-color: #f4fff3;
+}
+
+.infoActor {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  width: 100%;
+
+  margin-left: 10px;
+}
+
+.nombre {
+  width: 100%;
+
+  margin-left: 1em;
+  
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.biografia {
+  width: 100%;
+  
+  margin-top: 5px;
+  margin-left: 1.4em;
+
+  font-size: 24px;
+}
