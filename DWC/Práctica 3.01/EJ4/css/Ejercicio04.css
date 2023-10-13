@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+p {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilizando el párrafo recién agregado para que destaque */
+.nuevo {
+  background-color: #e0ffe0;
+  border: 1px solid #b3e6b3;
+}
+
+#parrafoExistente, #parrafoExistente2 {
+  background-color: #e0e0ff;
+}
