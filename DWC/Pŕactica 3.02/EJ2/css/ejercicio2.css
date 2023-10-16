@@ -1,0 +1,59 @@
+html, body {
+    height: 90%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+td {
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    transition: background-color 0.5s ease;
+}
+
+.primo {
+    background-color: #ff6666;
+    font-weight: bold;
+    color: white;
+}
+
+td:hover {
+    background-color: #e0e0e0;
+}
+
+td.primo:hover {
+    background-color: #e00000;
+}
