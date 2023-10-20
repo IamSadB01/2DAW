@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="200" height="200">
+        Your browser does not support the HTML canvas tag.
+    </canvas>
+    <canvas id="myCanvas2" width="200" height="200">
+        Your browser does not support the HTML canvas tag.
+    </canvas>
+
+    <script>
+        /** Circulos **/
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+
+        var circulos = [[50, 50, 40, Math.PI, 0.5 * Math.PI, true],[150, 50, 40, 0, Math.PI],[50, 150, 40, Math.PI, 0.5 * Math.PI],[150, 150, 40, 0, Math.PI, true]];
+
+        for (let index = 0; index < circulos.length; index++) {
+            const element = circulos[index];
+
+            ctx.beginPath();
+            ctx.arc(...element);
+            ctx.stroke();
+        }
+
+        /** Cuadrados **/
+        var c = document.getElementById("myCanvas2");
+        var ctx = c.getContext("2d");
+
+        if (myCanvas2 && myCanvas2.getContext) {
+            var ctx = myCanvas2.getContext("2d");
+            
+            if (ctx) {
+                var colors = ["yellow", "green", "blue", "red"]; // Color de sombra de los cuadrados.
+                var posicion = 10; // Posición de los cuadrados en el canvas.
+                
+                // Bucle para no tener que escribir el código de los cuadrados 4 veces.
+                for (let index = 0; index < colors.length; index++) {
+                    const element = colors[index];
+                    
+                    // Sombra.
+                    ctx.shadowColor = colors[index];
+                    ctx.shadowBlur = 5;
+                    ctx.shadowOffsetX = 2;
+                    ctx.shadowOffsetY = 2;
+
+                    // Borde.
+                    ctx.strokeStyle = "black";
+                    ctx.strokeRect(posicion, posicion, 120, 120);
+
+                    // Aumentar la posición del cuadrado.
+                    posicion += 20;
+                }
+            }
+        }
+    </script>   
+</body>
+</html>

@@ -3,6 +3,7 @@ import './Pelicula.css';
 import Cartelera from './Cartelera.jsx';
 import Resumen from './Resumen.jsx';
 import Elenco from './Elenco.jsx'
+import Taquilla from './Taquilla';
 
 // Componente que muestra toda la información de una película (título, director, cartelera, resumen, elenco de actores).
 function Pelicula(props) {
@@ -12,6 +13,7 @@ function Pelicula(props) {
       <p className="director">Director/a: {props.director}</p>
       <Cartelera cartelera={props.cartelera} titulo={props.titulo} />
       <Resumen>{props.resumen}</Resumen>
+      <Taquilla>{props.taquilla}</Taquilla>
       <Elenco elenco={props.elenco} />
     </div>
   );

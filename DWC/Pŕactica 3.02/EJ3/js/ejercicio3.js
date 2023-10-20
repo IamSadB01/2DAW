@@ -1,7 +1,7 @@
 'use strict';
 
 // Función para ocultar un elemento,
-function ocultarelementoo(elemento) {
+function ocultarElemento(elemento) {
     elemento.style.visibility = 'hidden'; // Cambia la visibilidad del elemento a oculto.
 }
 

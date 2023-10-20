@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="18d9d46c-4289-4cd8-8607-db8385c66ce9" name="Changes" comment="Adding New Files (16/10/23)">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ciclost.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ciclost.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicios/201tresfrases.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicios/201tresfrases.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicios/202calculos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicios/202calculos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicios/204datosPersonales.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicios/204datosPersonales.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicios/204datosPersonales.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicios/204datosPersonales.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicios/248tickets.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicios/248tickets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pruebas/funcionesRandom.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pruebas/funcionesRandom.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pruebas/gastosPareja.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pruebas/gastosPareja.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pruebas/plantilla/assets/brand/bootstrap-logo-white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/pruebas/plantilla/assets/brand/bootstrap-logo-white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pruebas/plantilla/assets/brand/bootstrap-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/pruebas/plantilla/assets/brand/bootstrap-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pruebas/plantilla/assets/dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pruebas/plantilla/assets/dist/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pruebas/plantilla/assets/dist/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/pruebas/plantilla/assets/dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pruebas/plantilla/assets/dist/css/bootstrap.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pruebas/plantilla/assets/dist/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pruebas/plantilla/assets/dist/css/bootstrap.rtl.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/pruebas/plantilla/assets/dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pruebas/plantilla/assets/dist/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pruebas/plantilla/assets/dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pruebas/plantilla/assets/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/pruebas/plantilla/assets/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pruebas/plantilla/assets/js/color-modes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pruebas/plantilla/assets/js/color-modes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pruebas/plantilla/css/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pruebas/plantilla/css/carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pruebas/plantilla/encabezado.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pruebas/plantilla/encabezado.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pruebas/plantilla/mensaje.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pruebas/plantilla/mensaje.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pruebas/plantilla/pie.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pruebas/plantilla/pie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pruebas/plantilla/slider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pruebas/plantilla/slider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pruebas/prueba1.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pruebas/prueba1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pruebas/pruebaArrays.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pruebas/pruebaArrays.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pruebas/pruebaFunciones.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pruebas/pruebaFunciones.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <execution />
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="OPTIONS">
+      <set>
+        <option value="REBASE" />
+      </set>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="IamSadB01 &lt;sergioalfonso.alu@iespacomolla.es&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Ejercicios/201tresfrases.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2VlJPeG7Ca9HYsEjvg7sU53crKu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "<unknown>",
+    "last_opened_file_path": "/media/sad/SSAD/2DAW/DWS/app3.2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/pruebas" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yaml: Compose Deployment">
+    <configuration name="docker-composeNGINX.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-composeNGINX.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18d9d46c-4289-4cd8-8607-db8385c66ce9" name="Changes" comment="" />
+      <created>1695404710871</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695404710871</updated>
+      <workItem from="1695404711879" duration="625000" />
+      <workItem from="1695405735996" duration="2657000" />
+      <workItem from="1695647127011" duration="128000" />
+      <workItem from="1695647262234" duration="704000" />
+      <workItem from="1695649775097" duration="456000" />
+      <workItem from="1695650237988" duration="3179000" />
+      <workItem from="1695653480870" duration="357000" />
+      <workItem from="1695827123525" duration="4758000" />
+      <workItem from="1695833357462" duration="838000" />
+      <workItem from="1695906230702" duration="6289000" />
+      <workItem from="1696252046135" duration="6484000" />
+      <workItem from="1696431553217" duration="5588000" />
+      <workItem from="1696511661649" duration="6162000" />
+      <workItem from="1696599284706" duration="1000" />
+      <workItem from="1696616407297" duration="1454000" />
+      <workItem from="1696618000295" duration="19000" />
+      <workItem from="1697461410417" duration="6836000" />
+      <workItem from="1697645727301" duration="1476000" />
+    </task>
+    <task id="LOCAL-00001" summary="Adding 9 Unversioned Files (Initial Commit)">
+      <option name="closed" value="true" />
+      <created>1695407077764</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695407077764</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding 9 Unversioned Files (Initial Commit)">
+      <option name="closed" value="true" />
+      <created>1695407168359</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695407168359</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding 9 Unversioned Files (Initial Commit)">
+      <option name="closed" value="true" />
+      <created>1695407194492</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695407194492</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adding 9 Unversioned Files (Initial Commit)">
+      <option name="closed" value="true" />
+      <created>1695407510120</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695407510120</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adding 9 Unversioned Files (Initial Commit)">
+      <option name="closed" value="true" />
+      <created>1695408098898</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695408098898</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adding 9 Unversioned Files (Initial Commit)">
+      <option name="closed" value="true" />
+      <created>1695650569834</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695650569834</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Adding 9 Unversioned Files (Initial Commit)">
+      <option name="closed" value="true" />
+      <created>1695650665154</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1695650665154</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adding New Files">
+      <option name="closed" value="true" />
+      <created>1695653579250</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1695653579250</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Adding New Files (27/09/23)">
+      <option name="closed" value="true" />
+      <created>1695906308133</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695906308133</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Adding New Files (28/09/23)">
+      <option name="closed" value="true" />
+      <created>1695912529823</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695912529823</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Adding New Files (02/10/23)">
+      <option name="closed" value="true" />
+      <created>1696258551080</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1696258551080</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Adding New Files (04/10/23)">
+      <option name="closed" value="true" />
+      <created>1696438902080</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1696438902080</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Adding New Files (04/10/23)">
+      <option name="closed" value="true" />
+      <created>1696518051372</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1696518051372</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Adding New Files (06/10/23)">
+      <option name="closed" value="true" />
+      <created>1696618014397</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1696618014397</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Adding New Files (16/10/23)">
+      <option name="closed" value="true" />
+      <created>1697468241721</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1697468241722</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding 9 Unversioned Files (Initial Commit)" />
+    <MESSAGE value="Adding New Files" />
+    <MESSAGE value="Adding New Files (27/09/23)" />
+    <MESSAGE value="Adding New Files (28/09/23)" />
+    <MESSAGE value="Adding New Files (02/10/23)" />
+    <MESSAGE value="Adding New Files (04/10/23)" />
+    <MESSAGE value="Adding New Files (06/10/23)" />
+    <MESSAGE value="Adding New Files (16/10/23)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding New Files (16/10/23)" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
