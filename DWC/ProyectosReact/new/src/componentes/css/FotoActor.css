@@ -1,0 +1,14 @@
+.fotoActor {
+    margin: 1.5em;
+}
+
+.fotoActor img{
+    width: 250px;
+    height: auto;
+    max-height: 370px;
+
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+}

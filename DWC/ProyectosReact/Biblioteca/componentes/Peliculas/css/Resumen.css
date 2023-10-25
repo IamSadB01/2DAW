@@ -1,0 +1,29 @@
+.resumen {
+    display: flex;
+    align-items: center;
+    
+    margin: auto;
+    margin-top: 1em;
+    margin-right: 7%;
+    
+    width: 55%;
+    height: 590px;
+    
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+
+    background-color: #f4fff3;
+
+    box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.3);
+}
+
+.resumen p {
+    margin: 5%;
+
+    font-size: 24px;
+    text-align: center;
+    
+    color: black;
+}

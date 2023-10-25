@@ -1,0 +1,22 @@
+.cartelera {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 30%;
+    
+    margin: auto;
+    margin-top: 1em;
+}
+
+.cartelera img {
+    height: 590px;
+    max-width: 396px;
+    
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    
+    box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.3);
+}

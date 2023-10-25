@@ -1,0 +1,88 @@
+.pelicula {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    width: 95%;
+
+    margin: auto;
+    margin-top: 2em;
+
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+
+    background-color: #C9E260;
+}
+
+.pelicula h2 {
+    width: 100%;
+
+    font-size: 46px;
+    font-weight: bolder;
+    text-align: center;
+
+    margin: auto;
+    margin-top: 1em;
+}
+
+.director {
+    margin-top: 10px;
+
+    width: 100%;
+
+    font-size: 20px;
+    text-align: center;
+}
+
+.oculto {
+    display: none;
+}
+
+/* Botones */
+
+.botones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 4em 0;
+    margin-left: 8.5em;
+
+    gap: 3em;
+
+    height: 122px;
+}
+
+button {
+    position: relative;
+    
+    border: 3px ridge black;
+    
+    background-color: white;
+    color: black;
+    
+    transition: 1s;
+
+    font-size: 40px;
+    font-weight: bold;
+
+    padding: 0.6em 3.5em;
+
+    cursor: pointer;
+}
+  
+button:hover::before, button:hover::after {
+    transform: scale(0)
+}
+  
+button:hover {
+    box-shadow: inset 0px 0px 25px #C9E260;
+}
+
+#taquilla {
+    margin: 2em 7em 2em auto;
+
+    width: 30%;
+}
