@@ -1,0 +1,18 @@
+.Cabecera {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-content: center;
+
+    width: 100%;
+}
+
+:is(h1,p) {
+    text-align: center;
+    margin: 0.2em;
+}
+
+h1 {
+    margin-top: 3vh;
+}

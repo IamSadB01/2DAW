@@ -1,9 +1,10 @@
-import React from 'react'
-import Router from  '../menu/jsx/Router.jsx'
+import React from 'react';
+import Rutas from  '../Rutas.jsx';
+import '../css/Contenedor.css';
 
 const Contenedor = () => {
   return (
-    <Router />
+    <Rutas />
   )
 }
 
