@@ -1,0 +1,25 @@
+.SubNav {
+    display: flex;
+    justify-content: center;
+    padding: 12px 0;
+    background-color: #242424;
+    border-radius: 5px;
+}
+
+.SubNav .li {
+    margin: 0 10px;
+    padding: 8px 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid #3A3A3A;
+    border-radius: 5px;
+    color: #EAEAEA;
+}
+
+.SubNav .li:hover {
+    background-color: #3A3A3A;
+    border-color: #4A4A4A;
+    color: #FFF;
+    text-decoration: none;
+}
