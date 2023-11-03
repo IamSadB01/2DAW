@@ -164,4 +164,25 @@ services:
 ```
 4. Crear carpeta src
 5. Crear index.php con un mensaje dentro (en src)
-6.  Ejecutar el docker-compose.yaml
+6. Ejecutar el docker-compose.yaml
+7. Archivo **antierrores** declarando la red y cambiando el puerto:
+```php
+# Services
+services:
+  # Apache + PHP
+  apache_php:
+    image: php:8.2-apache
+    # Preparamos un volumen para almacenar nuestro código
+    volumes:
+      - ./src/:/var/www/html
+    expose:
+      - 80
+    ports:
+      - 8081:80
+    networks:
+      - app1_default
+
+networks:
+  app1_default:
+    external: true
+```

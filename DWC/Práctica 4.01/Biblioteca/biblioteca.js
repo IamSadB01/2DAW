@@ -56,6 +56,39 @@ const toggleAcordeon = (contenido) => {
     }
 }
 
+const configurarArrastre = (bolaPapel, papeleraVacia, papeleraLlena) => {
+    // Agregar un oyente de arrastre a la bola de papel.
+    bolaPapel.addEventListener(
+        "dragstart",
+        (event) => {
+            event.dataTransfer.setData("text", event.target.id);
+        }
+    );
+
+    // Agregar oyentes para el arrastre y el soltar en la papelera.
+    papeleraVacia.addEventListener(
+        "dragover",
+        (event) => {
+            event.preventDefault();
+        }
+    );
+
+    papeleraVacia.addEventListener(
+        "drop",
+        (event) => {
+            event.preventDefault();
+            
+            const data = event.dataTransfer.getData("text");
+            if (data === "bolaPapel") {
+                bolaPapel.style.display = "none";
+                papeleraVacia.style.display = "none";
+                papeleraLlena.style.display = "block";
+            }
+        }
+    );
+};
+
+
 // Módulo de exportaciones.
 export { iniciarSaludos };
 
@@ -65,3 +98,5 @@ export { cambiarColorDeFondo };
 export { mostrarPosicionRaton };
 
 export { toggleAcordeon };
+
+export { configurarArrastre };

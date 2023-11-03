@@ -1,0 +1,17 @@
+#bolaPapel {
+    cursor: grab;
+}
+
+#papeleraVacia {
+    width: 200px;
+    height: 200px;
+    border: 2px dashed #000;
+}
+
+#papeleraLlena {
+    display: none;
+}
+
+img {
+    width: 200px;
+}
