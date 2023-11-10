@@ -1,0 +1,215 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin: 1em;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#colorSelector {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    max-width: 684px;
+    margin-bottom: 1em;
+    background-color: #ccc;
+    text-align: center;
+    border: 2px solid #333;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#colorSelector table tbody{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.colors {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.colorCell {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.colorCell:hover {
+    transform: scale(1.1);
+}
+
+#selectedColorText {
+    padding: 1em 1em 1em 2em;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #fff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-variant: small-caps;
+}
+
+#canvas {
+    max-width: 684px;
+    background-color: #fff;
+    border: 2px solid #333;
+    width: 85%;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#resetButton {
+    margin: auto 2em;
+    padding: 10px 30px;
+    background-color: #333;
+    border: none;
+    color: #fff;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#resetButton:hover {
+    background-color: #555;
+}
+
+#drawingTable {
+    border-collapse: collapse;
+    border: none;
+}
+
+#drawingTable td {
+    width: 5px;
+    height: 5px;
+}
+
+#drawingTable td:hover {
+    background-color: #555;
+}
+
+/* Colores */
+
+.color-white {
+    background-color: white;
+}
+.color-white:hover {
+    border-color: white;
+    animation: respiracion 1s ease-in-out infinite;
+}
+
+.color-black {
+    background-color: black;
+}
+.color-black:hover {
+    border-color: black;
+    animation: respiracion 1s ease-in-out infinite;
+}
+
+.color-red {
+    background-color: red;
+}
+.color-red:hover {
+    border-color: red;
+    animation: respiracion 1s ease-in-out infinite;
+}
+
+.color-green {
+    background-color: green;
+}
+.color-green:hover {
+    border-color: green;
+    animation: respiracion 1s ease-in-out infinite;
+}
+
+.color-yellow {
+    background-color: yellow;
+}
+.color-yellow:hover {
+    border-color: yellow;
+    animation: respiracion 1s ease-in-out infinite;
+}
+
+.color-blue {
+    background-color: blue;
+}
+.color-blue:hover {
+    border-color: blue;
+    animation: respiracion 1s ease-in-out infinite;
+}
+
+.color-purple {
+    background-color: purple;
+}
+.color-purple:hover {
+    border-color: purple;
+    animation: respiracion 1s ease-in-out infinite;
+}
+
+.color-pink {
+    background-color: pink;
+}
+.color-pink:hover {
+    border-color: pink;
+    animation: respiracion 1s ease-in-out infinite;
+}
+
+.color-orange {
+    background-color: orange;
+}
+.color-orange:hover {
+    border-color: orange;
+    animation: respiracion 1s ease-in-out infinite;
+}
+
+.color-brown {
+    background-color: brown;
+}
+.color-brown:hover {
+    border-color: brown;
+    animation: respiracion 1s ease-in-out infinite;
+}
+
+.color-gray {
+    background-color: gray;
+}
+.color-gray:hover {
+    border-color: gray;
+    animation: respiracion 1s ease-in-out infinite;
+}
+
+.color-cyan {
+    background-color: cyan;
+}
+.color-cyan:hover {
+    border-color: cyan;
+    animation: respiracion 1s ease-in-out infinite;
+}
+
+/* animación respiración al hacer hover */
+
+@keyframes respiracion {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

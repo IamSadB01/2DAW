@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pintarrajea</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Personal Paint</h1>
+    <div id="colorSelector">
+        <table>
+            <tr class="colors">
+                <td id="color1" class="colorCell color-white"></td>
+                <td id="color2" class="colorCell color-gray"></td>
+                <td id="color3" class="colorCell color-black"></td>
+                <td id="color4" class="colorCell color-red"></td>
+                <td id="color5" class="colorCell color-orange"></td>
+                <td id="color6" class="colorCell color-yellow"></td>
+                <td id="color7" class="colorCell color-green"></td>
+                <td id="color8" class="colorCell color-cyan"></td>
+                <td id="color9" class="colorCell color-blue"></td>
+                <td id="color10" class="colorCell color-purple"></td>
+                <td id="color11" class="colorCell color-pink"></td>
+                <td id="color12" class="colorCell color-brown"></td>
+            </tr>
+            <tr>
+                <td colspan=12 id="selectedColorText">white</td>
+            </tr>
+        </table>
+        <button id="resetButton">Clear</button>
+    </div>
+    <div id="canvas">
+        <table id="drawingTable">
+            <!-- Lienzo generado -->
+        </table>
+    </div>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
