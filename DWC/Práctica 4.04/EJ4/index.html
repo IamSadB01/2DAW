@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Formulario Pueblos</title>
+  </head>
+  <body>
+    <form id="formulario">
+      <label for="provincia">Provincia:</label>
+      <select id="provincia" required>
+        <option value="No seleccionado">No seleccionado</option>
+        <option value="Alicante">Alicante</option>
+        <option value="Castellon">Castellón</option>
+        <option value="Valencia">Valencia</option>
+      </select>
+
+      <label for="poblacion">Población:</label>
+      <select id="poblacion" required>
+        <option value="No seleccionado">No seleccionado</option>
+      </select>
+
+      <button type="button" id="enviarButton">Enviar</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>

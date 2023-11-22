@@ -1,19 +1,16 @@
-import React from 'react';
-import './App.css';
-import Cabecera from './componentes/jsx/Cabecera.jsx';
-import Nav from './componentes/navegacion/Nav.jsx';
-import Contenedor from './componentes/jsx/Contenedor.jsx';
-import Pie from './componentes/jsx/Pie.jsx';
+import { Fragment } from 'react';
+import Localizador from './componentes/EJ1/Localizador';
+import Colores from './componentes/EJ2/Colores';
+import Cronometro from './componentes/EJ3/Cronometro';
 
-function App() {
+const App = () => {
   return (
-    <React.Fragment>
-      <Cabecera />
-      <Nav />
-      <Contenedor />
-      <Pie />
-    </React.Fragment>
+    <Fragment>
+      {/* <Localizador /> */}
+      <Colores />
+      {/* Cronometro */}
+    </Fragment>
   );
-}
+};
 
-export default App
+export default App;

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Ejercicio 5 - Formulario Discos</title>
+  </head>
+  <body>
+    <form id="formulario">
+      <label for="nombre">Nombre del Disco:</label>
+      <input type="text" id="nombre" required />
+
+      <label for="grupo">Grupo de Música o Intérprete:</label>
+      <input type="text" id="grupo" required />
+
+      <label for="anio">Año de Publicación:</label>
+      <input type="text" id="anio" pattern="\d{4}" required />
+
+      <label for="tipo">Tipo de Música:</label>
+      <select id="tipo" required>
+        <option value="rock">Rock</option>
+        <option value="progressive">Progressive</option>
+        <option value="punk">Punk</option>
+        <option value="trash">Trash</option>
+      </select>
+
+      <label for="localizacion">Localización:</label>
+      <input type="text" id="localizacion" required/>
+
+      <label for="prestado">Prestado:</label>
+      <input type="checkbox" id="prestado" />
+
+      <button type="button" id="enviarButton">Enviar</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
