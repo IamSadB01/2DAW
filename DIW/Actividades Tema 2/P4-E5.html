@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 5</title>
+</head>
+<body>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    canvas {
+      border: 1px solid #ccc;
+    }
+  </style>
+
+  <canvas id="sepiaCanvas"></canvas>
+
+  <script>
+    // Función para aplicar el efecto sepia a una imagen.
+    function aplicarSepia(image) {
+      const canvas = document.getElementById('sepiaCanvas');
+      const ctx = canvas.getContext('2d');
+      const width = image.width;
+      const height = image.height;
+
+      // Establecer el tamaño del canvas igual al de la imagen.
+      canvas.width = width;
+      canvas.height = height;
+
+      // Dibujar la imagen en el canvas.
+      ctx.drawImage(image, 0, 0, width, height);
+
+      // Obtener los datos de los píxeles en el canvas.
+      const imageData = ctx.getImageData(0, 0, width, height);
+      const data = imageData.data;
+
+      // Aplicar el efecto sepia a cada píxel.
+      for (let i = 0; i < data.length; i += 4) {
+        // Obtener los valores RGB del píxel.
+        const R = data[i];
+        const G = data[i + 1];
+        const B = data[i + 2];
+
+        // Calcular los nuevos valores tr, tg, y tb.
+        let tr = 0.393 * R + 0.769 * G + 0.189 * B;
+        let tg = 0.349 * R + 0.686 * G + 0.168 * B;
+        let tb = 0.272 * R + 0.534 * G + 0.131 * B;
+
+        // Truncar al valor entero.
+        tr = Math.min(255, Math.max(0, Math.floor(tr))); // Comprobar que el valor no se sale de[0, 255] y redondearlo hacia abajo.
+        tg = Math.min(255, Math.max(0, Math.floor(tg)));
+        tb = Math.min(255, Math.max(0, Math.floor(tb)));
+
+        // Establecer los nuevos valores RGB en el píxel.
+        data[i] = tr;
+        data[i + 1] = tg;
+        data[i + 2] = tb;
+      }
+
+      // Establecer los datos modificados en el canvas.
+      ctx.putImageData(imageData, 0, 0);
+    }
+
+    // Cargar la imagen y aplicar el efecto sepia al cargar la página.
+    window.onload = () => {
+      const image = new Image();
+      image.src = 'nutrias.jpg';
+
+      image.onload = () => {
+        aplicarSepia(image);
+      };
+    };
+  </script>
+</body>
+</html>

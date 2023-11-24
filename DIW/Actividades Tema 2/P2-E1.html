@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Sergio Alfonso Deltell">
+  <title>Ejercicio 1</title>
+</head>
+<body>
+  <svg width="90vh" height="90vh">
+    <!-- Usando pad -->
+    <radialGradient id="ejemplo1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%" spreadMethod="pad">
+      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+    </radialGradient>
+    <rect x="0" y="0" width="200" height="200" fill="url(#ejemplo1)" />
+
+    <!-- Usando reflect -->
+    <radialGradient id="ejemplo2" cx="50%" cy="50%" r="50%" fx="50%" fy="50%" spreadMethod="reflect">
+      <stop offset="0%" style="stop-color:rgb(0,255,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,0,255);stop-opacity:1" />
+    </radialGradient>
+    <rect x="210" y="0" width="200" height="200" fill="url(#ejemplo2)" />
+
+    <!-- Usando repeat -->
+    <radialGradient id="ejemplo3" cx="50%" cy="50%" r="50%" fx="50%" fy="50%" spreadMethod="repeat">
+      <stop offset="0%" style="stop-color:rgb(0,255,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(180,0,255);stop-opacity:1" />
+    </radialGradient>
+    <rect x="420" y="0" width="200" height="200" fill="url(#ejemplo3)" />
+  </svg>
+</body>
+</html>

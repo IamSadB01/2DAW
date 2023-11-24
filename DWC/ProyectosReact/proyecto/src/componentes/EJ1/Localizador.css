@@ -1,17 +1,5 @@
-body {
-  font-family: Quicksand, Helvetica, sans-serif;
-}
-
-h1 {
-  color: aliceblue;
-  text-align: center;
-  width: 500px;
-  padding: 10px;
-  border: 2px solid aliceblue;
-  border-radius: 14px;
-}
-
 .coords-container {
+  height: 95vh;
   display: flex;
   align-items: center;
   justify-content: center;

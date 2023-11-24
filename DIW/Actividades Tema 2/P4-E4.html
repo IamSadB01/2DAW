@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Sergio Alfonso Deltell">
+  <title>Ejercicio 4</title>
+</head>
+<body>
+  <style>
+    canvas {
+      border: 1px solid #000;
+    }
+  </style>
+
+  <canvas id="myCanvas" width="400" height="200"></canvas>
+  <button onclick="rotarDegradado()">Rotar Degradado</button>
+
+  <script>
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+
+    // Crea el gradiente lineal.
+    var gradiente = ctx.createLinearGradient(50, 50, 350, 150);
+
+    // Añade colores al gradiente.
+    gradiente.addColorStop(0, "red");
+    gradiente.addColorStop(1 / 6, "orange");
+    gradiente.addColorStop(2 / 6, "yellow");
+    gradiente.addColorStop(3 / 6, "green");
+    gradiente.addColorStop(4 / 6, "blue");
+    gradiente.addColorStop(5 / 6, "indigo");
+    gradiente.addColorStop(1, "violet");
+
+    // Dibuja el rectángulo con el gradiente original.
+    ctx.fillStyle = gradiente;
+    ctx.fillRect(50, 50, 300, 100);
+
+    // Contador de rotaciones.
+    var rotacionCount = 1;
+
+    // Función para rotar el degradado 180 grados.
+    function rotarDegradado() {
+      // Limpia el canvas
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      // Calcula la cantidad de rotaciones.
+      rotacionCount++;
+
+      // Intercambia las posiciones iniciales y finales del gradiente según el número de rotaciones (lo unico que se me ha ocurrido que funcione).
+      var x0 = rotacionCount % 2 === 0 ? 350 : 50;
+      var y0 = rotacionCount % 2 === 0 ? 150 : 50;
+      var x1 = rotacionCount % 2 === 0 ? 50 : 350;
+      var y1 = rotacionCount % 2 === 0 ? 50 : 150;
+
+      gradiente = ctx.createLinearGradient(x0, y0, x1, y1);
+
+      gradiente.addColorStop(0, "red");
+      gradiente.addColorStop(1 / 6, "orange");
+      gradiente.addColorStop(2 / 6, "yellow");
+      gradiente.addColorStop(3 / 6, "green");
+      gradiente.addColorStop(4 / 6, "blue");
+      gradiente.addColorStop(5 / 6, "indigo");
+      gradiente.addColorStop(1, "violet");
+
+      ctx.fillStyle = gradiente;
+      ctx.fillRect(50, 50, 300, 100);
+    }
+  </script>
+</body>
+</html>
