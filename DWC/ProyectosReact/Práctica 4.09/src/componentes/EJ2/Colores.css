@@ -1,0 +1,21 @@
+.main-container {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.onChangeColor {
+  background-color: transparent;
+  border : 2px solid aliceblue;
+  border-radius: 14px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
