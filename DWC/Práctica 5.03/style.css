@@ -1,5 +1,146 @@
-body {
-  background-color: #333333;
+body, html {
+  height: 100vh;
+  margin: 0;
+
+  background-image: url('./assets/fondo.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
   color: #ffffff;
+  font-family: Rubik, Helvetica, sans-serif;
+  background-color: #333333;
+}
+
+header>h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 3em;
+  margin: 0;
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  font-weight: bolder;
+  text-shadow: 0 0 20px rgb(21, 23, 146); 
+}
+em {
+  font-style: normal;
+  text-shadow: 0 0 20px rgb(194, 22, 22); 
+}
+
+main {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+#lista-peliculas {
+  margin-top: 40px;
+  list-style: none;
+}
+
+li {
+  max-width: 232px;
+  margin: 0.5em;
+  padding: 0.5em 10px;
+  border-radius: 0.5em;
+  background-color: #ffffffcc;
+  color: #333333;
+  font-weight: bold;
+  cursor: pointer;
+}
+li:hover {
+  background-color: #ffffff;
+}
+
+#info {
+  color: #333333;
+  max-width: 700px;
+  min-height: 347px;
+  background-color: #ffffffcc;
+  border-radius: 0.5em;
+  margin: 0 20px;
+  padding: 0 20px;
+  font-weight: bolder;
+}
+
+#datos-pelicula {
+  font-family: Quicksand, Helvetica, sans-serif;
+}
+
+strong {
+  font-family: Rubik, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+#loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#loading img {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.oculto {
+  visibility: hidden;
+}
+
+/* Estilos para la sección de actores */
+#actores {
+  margin-top: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.actor {
+  width: 200px;
+  height: 69px;
+  color: #333333;
+  margin: 2px;
+  padding: 3px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffffcc;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+h3 {
+  margin: -5px;
+  width: 105%;
+  height: 115%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.actor:hover {
+  background-color: #ffffff;
+}
+
+#detalles-actor {
+  background-color: #ffffffcc;
+  border-radius: 0.5em;
+  margin: 20px;
+  padding: 20px;
+  font-weight: bolder;
+  color: #333333;
+}
+
+#detalles-actor p {
+  margin-bottom: 10px;
   font-family: Quicksand, Helvetica, sans-serif;
 }

@@ -1,0 +1,25 @@
+body {
+  background-color: #333333;
+  color: #ffffff;
+  font-family: Quicksand, Helvetica, sans-serif;
+}
+
+#contenedor-personas {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.persona {
+  width: 500px;
+  background-color: #333333;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin: 10px 0;
+  list-style: none;
+  text-align: center;
+}

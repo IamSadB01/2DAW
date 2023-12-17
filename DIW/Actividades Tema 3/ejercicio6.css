@@ -1,0 +1,54 @@
+#titulo {
+  color: darkcyan; /* teal ? */
+  margin: 0;
+}
+
+p>strong, h2+p>a, tbody tr:nth-child(2) th, tfoot th:nth-child(n+2) {
+  color: red;
+}
+
+.destacado, .especial, td>strong {
+  color: orange;
+}
+
+#subtitulo {
+  margin: 0;
+}
+
+h1+p, #adicional p {
+  margin: 10px 0;
+}
+
+h2+p {
+  margin: 10px 0 15px 0;
+}
+
+a>em, #subtitulo, caption {
+  color: blue;
+}
+
+span.especial {
+  color: purple;
+}
+
+caption {
+  margin-bottom: 5px;
+}
+
+td, p>a {
+  color: green;
+}
+
+table, tr, th, td {
+  padding: 5px;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+#adicional {
+  color: olive;
+}
+
+span#especial {
+  color: fuchsia;
+}

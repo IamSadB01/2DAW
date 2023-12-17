@@ -1,0 +1,125 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 20px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #1f2937;
+  text-shadow: 2px 2px 2px #ddd;
+}
+
+#maps-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.map-item {
+  max-width: 150px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #fff;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.map-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#map-details {
+  margin-top: 20px;
+}
+
+.map-preview-container {
+  position: relative;
+}
+
+.map-preview {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.map-name-overlay {
+  position: absolute;
+  top: 21%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 8px;
+  width: 87%;
+  font-weight: bolder;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.map-details-container {
+  display: flex;
+  align-items: center;
+}
+
+.map-info {
+  margin-left: 6%;
+  width: 47%;
+}
+
+#map-details p {
+  margin-top: 10px;
+}
+
+.map-preview-display {
+  width: 47%;
+  border-radius: 8px;
+}
+
+.error-container {
+  color: #d9534f;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.ocultar {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 5px 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease-in-out;
+}
+button:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.callout-item {
+  width: 500px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 5px 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.map-details-container+* {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

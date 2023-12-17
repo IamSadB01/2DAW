@@ -1,16 +1,18 @@
-import {mapDatos} from "../biblioteca/funciones.js";
+import {
+  obtenerDatos,
+  ordenarPorPropiedad,
+  mostrarListado,
+} from "../biblioteca/funciones.js";
 
-const url = "./feos.json";
-const contenedorPersonas = document.getElementById("contenedor-personas");
+window.onload = () => {
+  const url = "../assets/feos.json";
+  const outputDiv = document.getElementById("contenedor-personas");
 
-fetch(url)
-  .then((respuesta) => {
-    console.log("Conexión realizada con éxito.");
-    //console.log(respuesta);
-    return respuesta.json();
-  })
-  .then((datos) => {
-    console.log("Mostrando los datos...");
-    console.log(datos);
-    contenedorPersonas.innerHTML = (mapDatos(datos, contenedorPersonas));
-  });
+  // Obtener datos de la url y mostrarlos en el div.
+  obtenerDatos(url)
+    .then((data) => {
+      const dataOrdenada = ordenarPorPropiedad(data, "first_name");
+      mostrarListado(dataOrdenada, outputDiv);
+    })
+    .catch((error) => console.error(error));
+};
